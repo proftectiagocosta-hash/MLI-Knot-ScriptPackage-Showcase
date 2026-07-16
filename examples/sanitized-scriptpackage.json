@@ -1,0 +1,44 @@
+{
+  "format": "ScriptPackage v0.1",
+  "status": "fictional_public_example",
+  "title": "Why Clear Project Documentation Matters",
+  "hook": "A project without structure becomes hard to resume.",
+  "summary": "A short fictional educational video about organizing project documentation.",
+  "scenes": [
+    {
+      "number": 1,
+      "title": "The messy start",
+      "visual_description": "A desk with scattered notes and unclear filenames.",
+      "narration": "Every project starts with energy, but without structure, the next step becomes harder to find.",
+      "on_screen_text": "Projects need memory.",
+      "visual_prompt": "Fictional desk, scattered notes, soft light, no real data.",
+      "estimated_duration_seconds": 6
+    },
+    {
+      "number": 2,
+      "title": "The structure appears",
+      "visual_description": "Notes become organized into folders and README sections.",
+      "narration": "A simple structure can turn scattered progress into something reusable.",
+      "on_screen_text": "Organize before scaling.",
+      "visual_prompt": "Fictional folders and clean documentation layout.",
+      "estimated_duration_seconds": 7
+    },
+    {
+      "number": 3,
+      "title": "The reusable package",
+      "visual_description": "A clean package card with title, hook, scenes, caption, and metadata.",
+      "narration": "A ScriptPackage is an intermediate layer between idea and output.",
+      "on_screen_text": "Idea -> package -> output.",
+      "visual_prompt": "Abstract package card, futuristic interface, no private content.",
+      "estimated_duration_seconds": 7
+    }
+  ],
+  "caption": "Clear documentation helps a project become resumable, reusable, and safer to share.",
+  "hashtags": [
+    "documentation",
+    "projectworkflow",
+    "scriptpackage",
+    "mli-knot"
+  ],
+  "public_boundary": "This is a fictional sanitized example. It does not contain private prompts, real exports, or personal data."
+}
