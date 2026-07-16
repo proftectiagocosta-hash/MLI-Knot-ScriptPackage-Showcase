@@ -6,7 +6,7 @@
 
 </div>
 
-Public sanitized showcase of ScriptPackage v0.1 from the MLI-Knot Video Forge Lite project.
+Public sanitized showcase of **ScriptPackage v0.1** from the private **MLI-Knot Video Forge Lite** project.
 
 This repository explains the ScriptPackage concept without exposing the private prototype repository, internal outputs, private prompts, or unrevised development material.
 
@@ -45,7 +45,7 @@ It can represent:
 
 It is not a market standard, not a public API contract, and not a production format.
 
-It is a documented concept extracted from the private MLI-Knot Video Forge Lite prototype.
+It is a documented concept extracted from the private **MLI-Knot Video Forge Lite** prototype.
 
 ---
 
@@ -81,25 +81,32 @@ prompt -> ScriptPackage v0.1 -> storyboard -> preview -> export package
 
 ## Documentation
 
-- docs/scriptpackage-v0.1.md
-- docs/storyboard-example.md
-- docs/export-flow.md
-- docs/public-boundary.md
+- [`docs/scriptpackage-v0.1.md`](docs/scriptpackage-v0.1.md)
+- [`docs/storyboard-example.md`](docs/storyboard-example.md)
+- [`docs/export-flow.md`](docs/export-flow.md)
+- [`docs/public-boundary.md`](docs/public-boundary.md)
 
 ---
 
 ## Examples
 
-- examples/sanitized-scriptpackage.json
-- examples/sanitized-scriptpackage.md
+- [`examples/sanitized-scriptpackage.json`](examples/sanitized-scriptpackage.json)
+- [`examples/sanitized-scriptpackage.md`](examples/sanitized-scriptpackage.md)
 
 All examples are fictional and sanitized.
 
 ---
 
+## License and notice
+
+- [`LICENSE.md`](LICENSE.md)
+- [`NOTICE.md`](NOTICE.md)
+
+---
+
 ## Relationship with the private project
 
-The private project MLI-Knot Video Forge Lite remains private.
+The private project **MLI-Knot Video Forge Lite** remains private.
 
 This public repository exists only to explain the ScriptPackage concept in a safe, public, and reviewable way.
 
@@ -107,6 +114,14 @@ This public repository exists only to explain the ScriptPackage concept in a saf
 
 ## Related repositories
 
-- MLI-Knot Video Forge Lite: private source project
-- MLI-Knot Mind Public: public conceptual showcase
-- MLI-Knot-Cursos Showcase: public sanitized course-flow showcase
+- [MLI-Knot Mind Public](https://github.com/proftectiagocosta-hash/mli-knot-mind-public) — public conceptual showcase for prompt governance and response-quality principles.
+- [MLI-Knot-Cursos Showcase](https://github.com/proftectiagocosta-hash/mli-knot-cursos-showcase) — public sanitized showcase of an educational platform flow.
+- MLI-Knot Video Forge Lite — private source prototype for ScriptPackage generation.
+
+---
+
+## Public boundary
+
+This showcase should only receive public, fictional, sanitized, and reviewed material.
+
+If a file, prompt, output, screenshot, or example comes from the private prototype, it must be reviewed and sanitized before being published here.
