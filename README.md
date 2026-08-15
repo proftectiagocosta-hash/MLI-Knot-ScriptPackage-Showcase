@@ -1,8 +1,13 @@
-# MLI-Knot ScriptPackage Showcase
+# MLI-Knot-ScriptPackage-Showcase
+
+> **Status:** vitrine pública sanitizada do conceito ScriptPackage v0.1.  
+> **Projeto fonte:** `MLI-Knot-VideoForge-Lite`, mantido privado/local.  
+> **Regra de publicação:** apenas documentação e exemplos fictícios, sanitizados e revisados.
+
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/proftectiagocosta-hash/mli-knot-mind-public/main/assets/matrix-inspired-banner.gif" width="100%" alt="Cyber banner" />
+<img src="https://raw.githubusercontent.com/proftectiagocosta-hash/MLI-Knot-Mind-Showcase/main/assets/matrix-inspired-banner.gif" width="100%" alt="Cyber banner" />
 
 </div>
 
@@ -114,8 +119,8 @@ This public repository exists only to explain the ScriptPackage concept in a saf
 
 ## Related repositories
 
-- [MLI-Knot Mind Public](https://github.com/proftectiagocosta-hash/mli-knot-mind-public) — public conceptual showcase for prompt governance and response-quality principles.
-- [MLI-Knot-Cursos Showcase](https://github.com/proftectiagocosta-hash/mli-knot-cursos-showcase) — public sanitized showcase of an educational platform flow.
+- [MLI-Knot Mind Showcase](https://github.com/proftectiagocosta-hash/MLI-Knot-Mind-Showcase) — public conceptual showcase for prompt governance and response-quality principles.
+- [MLI-Knot-Cursos Showcase](https://github.com/proftectiagocosta-hash/MLI-Knot-Cursos-Showcase) — public sanitized showcase of an educational platform flow.
 - MLI-Knot Video Forge Lite — private source prototype for ScriptPackage generation.
 
 ---
