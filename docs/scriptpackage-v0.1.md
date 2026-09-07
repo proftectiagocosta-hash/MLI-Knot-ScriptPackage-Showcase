@@ -1,35 +1,41 @@
 # ScriptPackage v0.1
 
-ScriptPackage v0.1 is a structured package format for organizing a video idea.
+ScriptPackage v0.1 is the structured package format currently used by the private/local **MLI-Knot Video Forge Lite** functional prototype.
 
-It transforms a loose prompt into a more useful package for planning, reviewing, exporting, and reusing video material.
+It turns an initial video idea into organized material for scripting, storyboard review, preview, export, history, and later reuse.
 
 ---
 
 ## Purpose
 
-The purpose of ScriptPackage v0.1 is to create a clear intermediate object between an idea and a final video asset.
+The purpose of ScriptPackage v0.1 is to create a clear intermediate object between an idea and derived video artifacts.
 
-It helps answer:
+It helps organize:
 
-- what is the video about?
-- what is the hook?
-- what scenes are needed?
-- what narration text is expected?
-- what appears on screen?
-- what visual prompts support each scene?
-- what metadata belongs to the package?
-- what can be exported?
+- what the video is about;
+- the hook;
+- required scenes;
+- narration text;
+- on-screen text;
+- visual prompt notes;
+- metadata;
+- export-related information.
 
----
+The format remains internal to the prototype.
 
-## Conceptual flow
-
-prompt -> structured package -> storyboard -> preview -> export
+It is not an external official format, a public standard, or a stable API contract.
 
 ---
 
-## Expected sections
+## Current prototype flow
+
+prompt -> local deterministic generation -> ScriptPackage v0.1 -> storyboard -> preview -> export -> history -> reopen saved package
+
+The private prototype performs this flow locally and does not call an external AI model to generate the package.
+
+---
+
+## Package sections
 
 A ScriptPackage v0.1 may include:
 
@@ -43,7 +49,8 @@ A ScriptPackage v0.1 may include:
 - visual prompt notes;
 - caption;
 - hashtags;
-- export metadata;
+- preset;
+- estimated duration;
 - integrity status.
 
 ---
@@ -62,19 +69,31 @@ A scene may include:
 
 ---
 
-## Exported files
+## Derived exports
 
-A ScriptPackage-based export may produce:
+The current private prototype can derive package artifacts such as:
 
-- scriptpackage-v0.1.json;
-- scriptpackage-v0.1.md;
-- storyboard.txt;
-- storyboard.html;
-- manifest.json;
-- optional video file;
-- optional audio file.
+- `scriptpackage-v0.1.json`;
+- `scriptpackage-v0.1.md`;
+- `storyboard.txt`;
+- `storyboard.html`;
+- `manifest.json`;
+- optional `video.mp4`;
+- optional `audio.wav`.
 
-This public showcase does not include real private exports.
+The video artifact is a simple prototype output, not an advanced editing workflow.
+
+The optional audio is procedural and local; it is not real narration or external-AI TTS.
+
+---
+
+## History and reuse
+
+Saved prototype packages can be listed in local history.
+
+A previously exported package can be reopened as the active ScriptPackage for continued review.
+
+This showcase documents that behavior without publishing real private package history or exports.
 
 ---
 
@@ -87,8 +106,17 @@ ScriptPackage v0.1 is:
 - not a public standard;
 - not a stable API contract;
 - not guaranteed to be backward compatible;
-- not a replacement for a real video editor;
+- not a replacement for a full video editor;
 - not a final production workflow.
+
+The private prototype currently has no:
+
+- external AI dependency for package generation;
+- separate backend;
+- own public API;
+- database;
+- authentication;
+- real TTS narration.
 
 ---
 
@@ -102,3 +130,5 @@ Any public ScriptPackage example must be:
 - free from private prompts;
 - free from personal data;
 - free from real unrevised outputs.
+
+The broader experimental private UI evolution remains outside this showcase unless separately reviewed for publication.
