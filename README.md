@@ -1,9 +1,8 @@
 # MLI-Knot-ScriptPackage-Showcase
 
-> **Status:** vitrine pública sanitizada do conceito ScriptPackage v0.1.  
-> **Projeto fonte:** `MLI-Knot-VideoForge-Lite`, mantido privado/local.  
+> **Status:** vitrine pública sanitizada do ScriptPackage v0.1 usado por um protótipo funcional privado/local.
+> **Projeto fonte:** `MLI-Knot-VideoForge-Lite`, mantido privado/local.
 > **Regra de publicação:** apenas documentação e exemplos fictícios, sanitizados e revisados.
-
 
 <div align="center">
 
@@ -11,28 +10,37 @@
 
 </div>
 
-Public sanitized showcase of **ScriptPackage v0.1** from the private **MLI-Knot Video Forge Lite** project.
+Public sanitized showcase of **ScriptPackage v0.1** as currently used by the private/local **MLI-Knot Video Forge Lite** functional prototype.
 
-This repository explains the ScriptPackage concept without exposing the private prototype repository, internal outputs, private prompts, or unrevised development material.
+This repository documents the public-safe ScriptPackage structure and its current prototype flow without exposing private source code, private prompts, real outputs, internal history, or unrevised development material.
 
 ---
 
 ## Status
 
-Type: public showcase
+```text
+Type: public sanitized showcase
 Source project: MLI-Knot Video Forge Lite
-Source project visibility: private
+Source project state: functional private/local prototype
+Source project visibility: private/local
+Central format: ScriptPackage v0.1
+External AI: no
+Separate backend: no
+Own API: no
+Database: no
+Authentication: no
 Code included here: no
 Real outputs included here: no
 Private prompts included here: no
 Sensitive material included here: no
-State: initial public sanitized documentation
+Production application represented here: no
+```
 
 ---
 
 ## What is ScriptPackage v0.1?
 
-ScriptPackage v0.1 is a structured package format used to organize a video idea into reusable parts.
+**ScriptPackage v0.1** is a structured package format used by the private prototype to organize a video idea into reusable parts.
 
 It can represent:
 
@@ -46,17 +54,49 @@ It can represent:
 - caption;
 - hashtags;
 - metadata;
-- export notes.
+- preset;
+- estimated duration;
+- integrity status.
 
 It is not a market standard, not a public API contract, and not a production format.
 
-It is a documented concept extracted from the private **MLI-Knot Video Forge Lite** prototype.
+The current private prototype generates ScriptPackage v0.1 through local deterministic generation, without external AI.
 
 ---
 
-## Conceptual flow
+## Current prototype flow
 
-prompt -> ScriptPackage v0.1 -> storyboard -> preview -> export package
+prompt -> local deterministic generation -> ScriptPackage v0.1 -> storyboard -> preview -> export -> history -> reopen saved package
+
+The private prototype currently supports a public-safe description of the following behavior:
+
+- receives a prompt and local generation settings;
+- generates a ScriptPackage v0.1;
+- organizes scenes, narration text, on-screen text and visual prompts;
+- presents storyboard and simple visual preview;
+- exports structured and human-readable package material;
+- can generate a simple optional video artifact;
+- can generate optional procedural audio;
+- keeps local export history;
+- can reopen an exported package as the active package.
+
+This showcase describes those behaviors without publishing the private implementation.
+
+---
+
+## Exportable prototype artifacts
+
+Depending on the prototype export configuration, a saved package can include artifacts such as:
+
+- `scriptpackage-v0.1.json`;
+- `scriptpackage-v0.1.md`;
+- `storyboard.txt`;
+- `storyboard.html`;
+- `manifest.json`;
+- optional `video.mp4`;
+- optional `audio.wav`.
+
+Real private exports are not included in this showcase.
 
 ---
 
@@ -66,6 +106,7 @@ prompt -> ScriptPackage v0.1 -> storyboard -> preview -> export package
 - Sanitized structure documentation.
 - Fictional example package.
 - Fictional storyboard example.
+- Public-safe export-flow documentation.
 - Public boundary for safe showcase use.
 
 ---
@@ -78,9 +119,27 @@ prompt -> ScriptPackage v0.1 -> storyboard -> preview -> export package
 - Personal data.
 - Credentials.
 - Internal development history.
+- Internal operational details.
 - Production backend.
-- Real video outputs.
+- Real unrevised video outputs.
+- Experimental private UI implementation details.
 - Unreviewed material from the private repository.
+
+---
+
+## Current limits
+
+ScriptPackage v0.1 remains:
+
+- experimental;
+- local-first;
+- not a public standard;
+- not a stable public API contract;
+- not guaranteed to be backward compatible;
+- not a replacement for a full video editor;
+- not a final production workflow.
+
+The private prototype does not use external AI, a separate backend, its own API, a database, or authentication.
 
 ---
 
@@ -111,17 +170,19 @@ All examples are fictional and sanitized.
 
 ## Relationship with the private project
 
-The private project **MLI-Knot Video Forge Lite** remains private.
+The private/local **MLI-Knot Video Forge Lite** repository remains the technical source for the prototype.
 
-This public repository exists only to explain the ScriptPackage concept in a safe, public, and reviewable way.
+This public repository presents only ScriptPackage v0.1 material that can be explained safely and reviewably.
+
+The broader experimental private UI evolution remains outside this showcase unless separately reviewed for publication.
 
 ---
 
 ## Related repositories
 
-- [MLI-Knot Mind Showcase](https://github.com/proftectiagocosta-hash/MLI-Knot-Mind-Showcase) — public conceptual showcase for prompt governance and response-quality principles.
-- [MLI-Knot-Cursos Showcase](https://github.com/proftectiagocosta-hash/MLI-Knot-Cursos-Showcase) — public sanitized showcase of an educational platform flow.
-- MLI-Knot Video Forge Lite — private source prototype for ScriptPackage generation.
+- [MLI-Knot Mind Showcase](https://github.com/proftectiagocosta-hash/MLI-Knot-Mind-Showcase)
+- [MLI-Knot-Cursos Showcase](https://github.com/proftectiagocosta-hash/MLI-Knot-Cursos-Showcase)
+- MLI-Knot Video Forge Lite — private technical source for ScriptPackage v0.1.
 
 ---
 
