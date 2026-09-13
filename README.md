@@ -10,9 +10,25 @@
 
 </div>
 
+![Current public ScriptPackage scope](https://img.shields.io/badge/current%20public%20ScriptPackage%20scope-100%25-brightgreen)
+![GitHub stars](https://img.shields.io/github/stars/proftectiagocosta-hash/MLI-Knot-ScriptPackage-Showcase?style=flat&label=stars)
+![README views](https://hits.sh/github.com/proftectiagocosta-hash/MLI-Knot-ScriptPackage-Showcase.svg?label=README%20views)
+
 Public sanitized showcase of **ScriptPackage v0.1** as currently used by the private/local **MLI-Knot Video Forge Lite** functional prototype.
 
 This repository documents the public-safe ScriptPackage structure and its current prototype flow without exposing private source code, private prompts, real outputs, internal history, or unrevised development material.
+
+## Current source relationship and bounded progress
+
+The private technical source has evolved beyond the original Lite interface toward a unified **MLI-Knot Forge Studio** architecture. In that private source, **ScriptPackage v0.1 remains the preserved package model** used for generation, storyboard, preview and export flows.
+
+This public repository intentionally remains narrower: it documents only the reviewed ScriptPackage v0.1 layer and does not mirror the broader private Forge Studio evolution.
+
+The currently declared public showcase scope contains six reviewed deliverables: public ScriptPackage explanation, sanitized structure documentation, fictional package example, fictional storyboard example, public-safe export-flow documentation, and an explicit public boundary. All six are present in this repository.
+
+**Current public ScriptPackage showcase scope: 6/6 = 100%.**
+
+The denominator is limited to those six declared public-showcase deliverables. This percentage is **not** private product completion, Forge Studio roadmap completion, production readiness, API stability, or backward-compatibility maturity.
 
 ---
 
@@ -174,7 +190,7 @@ The private/local **MLI-Knot Video Forge Lite** repository remains the technical
 
 This public repository presents only ScriptPackage v0.1 material that can be explained safely and reviewably.
 
-The broader experimental private UI evolution remains outside this showcase unless separately reviewed for publication.
+The broader private evolution now includes the unified Forge Studio architecture. It remains outside this showcase unless a specific public-safe slice is separately reviewed and authorized for publication.
 
 ---
 
